@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPLUFIC LUXURY SPA | Pedicure, Manicure, Facials & Massage in Ibadan</title>
+<meta name="description" content="Splufic Luxury Spa, Akobo, Ibadan. Pedicure, manicure, facials, body massage, vajacials, skin tag removal, waxing and body exfoliation. Book on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = { theme: { extend: { fontFamily: {
+    serif: ["'Cormorant Garamond'", "Georgia", "serif"],
+    sans: ["Manrope", "system-ui", "sans-serif"] } } } };
+</script>
+<style>
+  html { scroll-padding-top: 4rem; }
+  /* Scroll reveal */
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity .8s cubic-bezier(.22,1,.36,1), transform .8s cubic-bezier(.22,1,.36,1); transition-delay: var(--d, 0s); }
+  .reveal.in { opacity: 1; transform: none; }
+  /* Hero staggered load */
+  @keyframes rise { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: none; } }
+  .rise { opacity: 0; animation: rise .9s cubic-bezier(.22,1,.36,1) forwards; }
+  /* Service card pop-in */
+  @keyframes pop { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: none; } }
+  .pop { animation: pop .4s ease backwards; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal, .rise, .pop { animation: none !important; transition: none !important; opacity: 1 !important; transform: none !important; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body class="bg-[#f6f3ec] font-sans text-[#2b3631] antialiased">
+
+<!-- HEADER: black, fixed to top -->
+<header class="fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-black">
+  <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
+    <a href="#top" class="flex items-center gap-2 font-serif text-xl font-semibold tracking-wide text-white">
+      <i data-lucide="leaf" class="h-5 w-5 text-[#9fb0a4]"></i>SPLUFIC Luxury Spa
+    </a>
+    <nav class="hidden items-center gap-8 text-sm font-medium text-white/75 md:flex" aria-label="Main">
+      <a href="#services" class="relative py-2 transition hover:text-white after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-white after:transition-all hover:after:w-full">Services</a>
+      <a href="#why" class="relative py-2 transition hover:text-white after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-white after:transition-all hover:after:w-full">Why us</a>
+      <a href="#reviews" class="relative py-2 transition hover:text-white after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-white after:transition-all hover:after:w-full">Reviews</a>
+      <a href="#visit" class="relative py-2 transition hover:text-white after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-white after:transition-all hover:after:w-full">Contact</a>
+      <a data-wa class="inline-flex min-h-10 items-center rounded-full bg-[#f6f3ec] px-5 text-sm font-semibold text-[#33433b] transition hover:bg-white" target="_blank" rel="noopener">Book now</a>
+    </nav>
+    <button id="menuBtn" aria-label="Menu" aria-expanded="false" class="grid h-12 w-12 place-items-center text-white md:hidden">
+      <i data-lucide="menu" class="h-6 w-6"></i>
+    </button>
+  </div>
+  <nav id="mobileMenu" class="hidden border-t border-white/10 bg-black md:hidden" aria-label="Mobile">
+    <div class="flex flex-col px-5 pb-5">
+      <a href="#services" class="py-3.5 text-white/90">Services</a>
+      <a href="#why" class="py-3.5 text-white/90">Why us</a>
+      <a href="#reviews" class="py-3.5 text-white/90">Reviews</a>
+      <a href="#visit" class="py-3.5 text-white/90">Contact</a>
+      <a data-wa target="_blank" rel="noopener" class="mt-2 inline-flex min-h-12 items-center justify-center rounded-full bg-[#f6f3ec] px-7 text-sm font-semibold text-[#33433b]">Book on WhatsApp</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="relative flex min-h-[100svh] items-end overflow-hidden bg-[#2b3631]">
+    <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=2000&q=70" alt="" class="absolute inset-0 h-full w-full object-cover opacity-60" onerror="this.style.display='none'">
+    <div class="absolute inset-0 bg-gradient-to-t from-[#1f2823] via-[#1f2823]/40 to-transparent"></div>
+    <div class="relative mx-auto w-full max-w-6xl px-5 pb-16 pt-32 sm:px-8 md:pb-24">
+      <h1 class="rise max-w-3xl font-serif text-5xl font-medium leading-[1.02] text-[#f6f3ec] sm:text-7xl md:text-8xl" style="animation-delay:.2s">Time to look and feel your best.</h1>
+      <p class="rise mt-6 max-w-lg text-base leading-relaxed text-[#e4e0d3] sm:text-lg" style="animation-delay:.4s">Pedicure, manicure, facials, body massage and more at Splufic Luxury Spa, Akobo, Ibadan. Tap book and we’ll chat with you on WhatsApp.</p>
+      <div class="rise mt-9 flex flex-col gap-3 sm:flex-row" style="animation-delay:.6s">
+        <a data-wa target="_blank" rel="noopener" class="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#f6f3ec] px-7 text-sm font-semibold text-[#33433b] transition hover:bg-white active:scale-[.97]"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i>Book on WhatsApp</a>
+        <a href="#services" class="inline-flex min-h-12 items-center justify-center rounded-full border border-[#f6f3ec]/50 px-7 text-sm font-semibold text-[#f6f3ec] transition hover:bg-white/10 active:scale-[.97]">See our services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="bg-[#eceadf] px-5 py-20 sm:px-8 md:py-28">
+    <div class="mx-auto max-w-6xl">
+      <h2 class="reveal max-w-2xl font-serif text-4xl font-medium leading-[1.1] sm:text-5xl">Our services</h2>
+      <div class="reveal mt-8 overflow-x-auto pb-2" style="--d:.1s">
+        <div id="tabs" role="tablist" class="flex w-max gap-2"></div>
+      </div>
+      <div id="grid" class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why" class="px-5 py-20 sm:px-8 md:py-28">
+    <div class="mx-auto max-w-6xl">
+      <h2 class="reveal max-w-2xl font-serif text-4xl font-medium leading-[1.1] sm:text-5xl">Self-care that feels effortless</h2>
+      <div class="mt-12 grid gap-6 md:grid-cols-3">
+        <div class="reveal" style="--d:0s"><div class="card h-full p-7"><i data-lucide="sparkles" class="h-7 w-7 text-[#7a8f7e]"></i><h3 class="mt-5 font-serif text-2xl font-medium">Treatments made for you</h3><p class="mt-2 text-sm leading-relaxed text-[#4a5a52]">Tell us what you want and we’ll adjust each service to suit your skin and comfort.</p></div></div>
+        <div class="reveal" style="--d:.12s"><div class="card h-full p-7"><i data-lucide="heart-handshake" class="h-7 w-7 text-[#7a8f7e]"></i><h3 class="mt-5 font-serif text-2xl font-medium">A calm, welcoming space</h3><p class="mt-2 text-sm leading-relaxed text-[#4a5a52]">Switch off from the day in a relaxed spa setting at Akobo, Ibadan.</p></div></div>
+        <div class="reveal" style="--d:.24s"><div class="card h-full p-7"><i data-lucide="message-circle" class="h-7 w-7 text-[#7a8f7e]"></i><h3 class="mt-5 font-serif text-2xl font-medium">Easy booking</h3><p class="mt-2 text-sm leading-relaxed text-[#4a5a52]">Tap book on any service and chat with us directly on WhatsApp.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS (sample text: replace with real client reviews) -->
+  <section id="reviews" class="bg-[#33433b] px-5 py-20 sm:px-8 md:py-28">
+    <div class="reveal mx-auto max-w-3xl text-center">
+      <div class="flex justify-center gap-1 text-[#c9b88a]">
+        <i data-lucide="star" class="h-[18px] w-[18px] fill-current"></i><i data-lucide="star" class="h-[18px] w-[18px] fill-current"></i><i data-lucide="star" class="h-[18px] w-[18px] fill-current"></i><i data-lucide="star" class="h-[18px] w-[18px] fill-current"></i><i data-lucide="star" class="h-[18px] w-[18px] fill-current"></i>
+      </div>
+      <figure id="review" class="mt-8 min-h-[14rem] transition-all duration-300">
+        <blockquote id="rText" class="font-serif text-2xl leading-snug text-[#f6f3ec] sm:text-4xl"></blockquote>
+        <figcaption id="rName" class="mt-6 text-sm text-[#c9d3cb]"></figcaption>
+      </figure>
+      <div class="mt-6 flex items-center justify-center gap-4">
+        <button id="prev" aria-label="Previous review" class="grid h-12 w-12 place-items-center rounded-full border border-[#f6f3ec]/30 text-[#f6f3ec] transition hover:bg-white/10"><i data-lucide="chevron-left"></i></button>
+        <div id="dots" class="flex gap-2"></div>
+        <button id="next" aria-label="Next review" class="grid h-12 w-12 place-items-center rounded-full border border-[#f6f3ec]/30 text-[#f6f3ec] transition hover:bg-white/10"><i data-lucide="chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer id="visit" class="bg-[#1f2823] px-5 py-16 text-[#c9d3cb] sm:px-8">
+  <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-3">
+    <div>
+      <p class="font-serif text-3xl text-[#f6f3ec]">SPLUFIC LUXURY SPA</p>
+      <p class="mt-3 max-w-sm text-sm leading-relaxed">Pedicure, manicure, facials, body massage, vajacials, skin tag removal, waxing and body exfoliation.</p>
+      <a data-wa target="_blank" rel="noopener" class="mt-6 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#f6f3ec] px-7 text-sm font-semibold text-[#33433b] transition hover:bg-white"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i>Book on WhatsApp</a>
+    </div>
+    <div class="space-y-3 text-sm">
+      <p class="font-semibold text-[#f6f3ec]">Find us</p>
+      <p class="flex gap-2"><i data-lucide="map-pin" class="mt-0.5 h-4 w-4 shrink-0"></i>Shop 229, opposite Mamny Market Mosque, Ojurin, Akobo, Ibadan</p>
+      <a href="tel:+2349064390684" class="flex gap-2 hover:text-white"><i data-lucide="phone" class="mt-0.5 h-4 w-4 shrink-0"></i>0906 439 0684</a>
+      <a data-wa-plain target="_blank" rel="noopener" class="flex gap-2 hover:text-white"><i data-lucide="message-circle" class="mt-0.5 h-4 w-4 shrink-0"></i>WhatsApp: 0906 439 0684</a>
+      <a href="mailto:naffsybaby@gmail.com" class="flex gap-2 break-all hover:text-white"><i data-lucide="mail" class="mt-0.5 h-4 w-4 shrink-0"></i>naffsybaby@gmail.com</a>
+    </div>
+    <div class="text-sm">
+      <p class="font-semibold text-[#f6f3ec]">Opening hours</p>
+      <p class="mt-3">Call or message us on WhatsApp to confirm opening hours and availability.</p>
+    </div>
+  </div>
+  <div class="mx-auto mt-12 flex max-w-6xl flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs sm:flex-row">
+    <p>© <span id="year"></span> SPLUFIC LUXURY SPA</p>
+    <div class="flex items-center gap-3">
+      <a href="#" class="mr-2 hover:text-white">Privacy policy</a>
+      <a href="https://www.instagram.com/spluficluxuruyspa" target="_blank" rel="noopener" aria-label="Instagram" class="grid h-11 w-11 place-items-center hover:text-white"><i data-lucide="instagram" class="h-[18px] w-[18px]"></i></a>
+      <a href="https://www.facebook.com/spluficluxuruyspa" target="_blank" rel="noopener" aria-label="Facebook" class="grid h-11 w-11 place-items-center hover:text-white"><i data-lucide="facebook" class="h-[18px] w-[18px]"></i></a>
+      <a href="https://www.tiktok.com/@spluficluxuruyspa" target="_blank" rel="noopener" aria-label="TikTok" class="grid h-11 w-11 place-items-center hover:text-white"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 2h-3.2v13.3a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .8.1V9.2a6.1 6.1 0 1 0 5.3 6V8.6a7.5 7.5 0 0 0 4.4 1.4V6.8A4.4 4.4 0 0 1 16.6 2z"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a data-wa target="_blank" rel="noopener" aria-label="Chat on WhatsApp" class="fixed bottom-5 right-5 z-30 grid h-14 w-14 place-items-center rounded-full bg-[#33433b] text-white shadow-lg transition hover:scale-105 hover:bg-[#25322c]"><i data-lucide="message-circle"></i></a>
+
+<script src="https://unpkg.com/lucide@0.462.0/dist/umd/lucide.min.js"></script>
+<script>
+/* ---------- Business details (edit here) ---------- */
+const BIZ = { name: "SPLUFIC LUXURY SPA", wa: "2349064390684" };
+
+/* Every "Book" button opens WhatsApp with a ready-written message */
+const waLink = (service) => "https://wa.me/" + BIZ.wa + "?text=" + encodeURIComponent(
+  service
+    ? `Hi, I am booking ${service.toLowerCase()} at ${BIZ.name}. Please confirm availability and price. Thank you!`
+    : `Hi, I would like to book an appointment at ${BIZ.name}. Please let me know what is available. Thank you!`
+);
+
+/* To use your own photo, add  photo: "images/manicure.jpg"  to a service */
+const img = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=700&q=70`;
+const SERVICES = [
+  { id: "pedicure",    name: "Pedicure",         g: "Nails",       icon: "footprints",   img: "photo-1707725238063-0c54fb6963d1", blurb: "Soak, shape, scrub and polish for soft, tidy feet." },
+  { id: "manicure",    name: "Manicure",         g: "Nails",       icon: "hand",         img: "photo-1604654894610-df63bc536371", blurb: "Clean shaping, cuticle care and a polished finish for your hands." },
+  { id: "facials",     name: "Facials",          g: "Face & skin", icon: "sparkles",     img: "photo-1570172619644-dfd03ed5d881", blurb: "Deep cleansing and hydration to leave your skin fresh and glowing." },
+  { id: "vajacials",   name: "Vajacials",        g: "Face & skin", icon: "flower-2",     img: "photo-1552693673-1bf958298935",    blurb: "A gentle skin-care treatment for the intimate area, done privately and with care." },
+  { id: "skintag",     name: "Skin tag removal", g: "Face & skin", icon: "shield-check", img: "photo-1616394584738-fc6e612e71b9", blurb: "Quick removal of small skin tags. Message us first so we can confirm it suits you." },
+  { id: "exfoliation", name: "Body exfoliation", g: "Body",        icon: "droplets",     img: "photo-1540555700478-4be289fbecef", blurb: "A full-body scrub that clears dead skin and leaves it smooth and even." },
+  { id: "massage",     name: "Body massage",     g: "Body",        icon: "waves",        img: "photo-1544161515-4ab6ce6db874",    blurb: "Slow, relaxing strokes to ease tension and help you switch off." },
+  { id: "waxing",      name: "Waxing",           g: "Body",        icon: "feather",      img: "photo-1596178060671-7a80dc8059ea", blurb: "Smooth, long-lasting hair removal, tailored to the area you choose." },
+];
+const GROUPS = ["All", "Nails", "Face & skin", "Body"];
+/* Sample reviews: replace with real client reviews before launch */
+const REVIEWS = [
+  { n: "Sample client", t: "Replace this with a real review from one of your happy clients." },
+  { n: "Sample client", t: "Add 3–5 genuine reviews here to build trust with new visitors." },
+];
+
+/* ---------- WhatsApp links ---------- */
+document.querySelectorAll("[data-wa]").forEach((a) => (a.href = waLink()));
+document.querySelectorAll("[data-wa-plain]").forEach((a) => (a.href = "https://wa.me/" + BIZ.wa));
+document.getElementById("year").textContent = new Date().getFullYear();
+
+/* ---------- Mobile menu ---------- */
+const menuBtn = document.getElementById("menuBtn"), menu = document.getElementById("mobileMenu");
+const setMenu = (open) => {
+  menu.classList.toggle("hidden", !open);
+  menuBtn.setAttribute("aria-expanded", open);
+  menuBtn.innerHTML = `<i data-lucide="${open ? "x" : "menu"}" class="h-6 w-6"></i>`;
+  lucide.createIcons();
+};
+menuBtn.addEventListener("click", () => setMenu(menu.classList.contains("hidden")));
+menu.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setMenu(false)));
+
+/* ---------- Services: tabs + cards ---------- */
+const tabs = document.getElementById("tabs"), grid = document.getElementById("grid");
+let group = "All";
+function renderTabs() {
+  tabs.innerHTML = GROUPS.map((g) => `
+    <button role="tab" aria-selected="${g === group}" data-g="${g}" class="min-h-12 whitespace-nowrap rounded-full px-6 text-sm font-semibold transition-colors duration-300 ${g === group ? "bg-[#33433b] text-[#f6f3ec]" : "text-[#4a5a52] hover:bg-[#33433b]/10"}">${g}</button>`).join("");
+}
+function renderCards() {
+  grid.innerHTML = SERVICES.filter((s) => group === "All" || s.g === group).map((s, i) => `
+    <article class="pop card flex h-full flex-col overflow-hidden" style="animation-delay:${i * 60}ms">
+      <div class="relative h-52 overflow-hidden bg-gradient-to-br from-[#c9d3cb] to-[#8fa397]">
+        <div class="absolute inset-0 grid place-items-center text-[#33433b]/70"><i data-lucide="${s.icon}" class="h-14 w-14" stroke-width="1.25"></i></div>
+        <img src="${s.photo || img(s.img)}" alt="${s.name} at Splufic Luxury Spa" loading="lazy" onerror="this.style.display='none'" class="relative h-full w-full object-cover transition-transform duration-700 hover:scale-105">
+        <span class="absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white backdrop-blur">${s.g}</span>
+      </div>
+      <div class="flex flex-1 flex-col p-6">
+        <h3 class="font-serif text-3xl font-medium">${s.name}</h3>
+        <p class="mt-2 flex-1 text-sm leading-relaxed text-[#4a5a52]">${s.blurb}</p>
+        <p class="mt-4 text-xs text-[#7a8f7e]">Price on request via WhatsApp</p>
+        <a href="${waLink(s.name)}" target="_blank" rel="noopener" class="mt-3 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#33433b] px-7 text-sm font-semibold text-[#f6f3ec] transition hover:bg-[#25322c] active:scale-[.97]"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i>Book ${s.name.toLowerCase()}</a>
+      </div>
+    </article>`).join("");
+  lucide.createIcons();
+}
+tabs.addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-g]");
+  if (!b) return;
+  group = b.dataset.g;
+  renderTabs();
+  renderCards();
+});
+
+/* ---------- Reviews carousel ---------- */
+let ri = 0;
+const rText = document.getElementById("rText"), rName = document.getElementById("rName"), rBox = document.getElementById("review"), dots = document.getElementById("dots");
+function showReview(n) {
+  ri = (n + REVIEWS.length) % REVIEWS.length;
+  rBox.style.opacity = 0; rBox.style.transform = "translateX(20px)";
+  setTimeout(() => {
+    rText.textContent = "“" + REVIEWS[ri].t + "”";
+    rName.textContent = REVIEWS[ri].n;
+    dots.innerHTML = REVIEWS.map((_, k) => `<span class="h-1.5 rounded-full transition-all ${k === ri ? "w-6 bg-[#f6f3ec]" : "w-1.5 bg-[#f6f3ec]/40"}"></span>`).join("");
+    rBox.style.opacity = 1; rBox.style.transform = "none";
+  }, 200);
+}
+document.getElementById("prev").onclick = () => showReview(ri - 1);
+document.getElementById("next").onclick = () => showReview(ri + 1);
+
+/* ---------- Scroll reveal ---------- */
+const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+  if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+}), { rootMargin: "0px 0px -80px 0px" });
+document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+/* ---------- Shared card style (hover lift + glow) ---------- */
+const st = document.createElement("style");
+st.textContent = `.card{border:1px solid #d9d3c3;border-radius:1.5rem;background:rgba(255,255,255,.7);box-shadow:0 2px 12px rgba(51,67,59,.06);transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease}
+.card:hover{transform:translateY(-4px) scale(1.015);border-color:#7a8f7e;box-shadow:0 18px 44px rgba(122,143,126,.28)}
+@media (prefers-reduced-motion:reduce){.card:hover{transform:none}}`;
+document.head.appendChild(st);
+
+/* ---------- Init ---------- */
+renderTabs(); renderCards(); showReview(0); lucide.createIcons();
+</script>
+</body>
+</html>
